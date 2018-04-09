@@ -1,0 +1,25 @@
+
+Descriere:
+    Cerinta:
+    	Scalarea arhitecturii CQRS folosind Event Sourcing pentru sincronizarea comenzilor si interogarilor. Studiu de caz: teorema CAP.
+    
+    Abordare: un sistem simplu de management al comenzilor (Order) facute de un client, construit peste arhitectura CQRS. 
+
+    Links: 
+        * https://martinfowler.com/bliki/CQRS.html
+        * http://microservices.io/patterns/data/cqrs.html
+        * https://www.codeproject.com/Articles/555855/Introduction-to-CQRS
+        * https://martinfowler.com/eaaDev/EventSourcing.html
+        * https://en.wikipedia.org/wiki/CAP_theorem
+
+Actori:
+
+    Client: acesta va interaction cu serviciul GUI pt a trimite Request-uri catre sistem.
+    Server: acesta va receptiona apeluri de la client si va interactiona cu sistemul de baze de date pt a interpreta mesajul. 
+
+Scenarii de utilizare:
+
+    a. Client creeaza Order
+    b. Client adauga item pentru Order
+    c. Pagina nu este blocata si nu asteapta ca request-ul de la punctul b. sa fie completat
+    c. Item-ul apare ca fiind adaugat doar in cazul in care Query-ul fost facut cu success.
