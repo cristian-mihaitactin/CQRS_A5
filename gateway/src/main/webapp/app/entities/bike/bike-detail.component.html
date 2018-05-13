@@ -1,0 +1,34 @@
+
+<div *ngIf="bike">
+    <h2><span>Bike</span> {{bike.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span>Model</span></dt>
+        <dd>
+            <span>{{bike.model}}</span>
+        </dd>
+        <dt><span>Price</span></dt>
+        <dd>
+            <span>{{bike.price}}</span>
+        </dd>
+        <dt><span>Manufacturer</span></dt>
+        <dd>
+            <span>{{bike.manufacturer}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'bike/'+ bike.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span> Edit</span>
+    </button>
+</div>
