@@ -1,0 +1,62 @@
+2018-05-13 17:33:53.153  INFO 10718 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-13 17:33:58.816  INFO 10718 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-13 17:33:58.826  INFO 10718 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-13 17:34:00.368  WARN 10718 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-13 17:34:05.293  WARN 10718 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-13 17:34:07.344 DEBUG 10718 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-13 17:34:07.363 DEBUG 10718 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 19 ms
+2018-05-13 17:34:09.451  INFO 10718 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-13 17:34:09.458  INFO 10718 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-13 17:34:09.474  INFO 10718 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1526222049474 with initial instances count: 0
+2018-05-13 17:34:10.078  INFO 10718 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-13 17:34:10.078  INFO 10718 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-13 17:34:10.079  INFO 10718 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-13 17:34:10.079  INFO 10718 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-13 17:34:11.902  WARN 10718 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-13 17:34:14.146  INFO 10718 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 23.774 seconds (JVM running for 24.343)
+2018-05-13 17:34:14.148  INFO 10718 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.0.105:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-13 19:08:16.271  INFO 10718 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-13 19:08:16.271  INFO 10718 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-13 19:08:16.321  WARN 10718 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-13 23:59:31.298  INFO 9573 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-13 23:59:36.810  INFO 9573 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-13 23:59:36.820  INFO 9573 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-13 23:59:37.834  WARN 9573 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-13 23:59:40.775  WARN 9573 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-13 23:59:42.057 DEBUG 9573 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-13 23:59:42.067 DEBUG 9573 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 9 ms
+2018-05-13 23:59:43.583  INFO 9573 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-13 23:59:43.583  INFO 9573 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-13 23:59:43.592  INFO 9573 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1526245183592 with initial instances count: 0
+2018-05-13 23:59:44.411  INFO 9573 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-13 23:59:44.412  INFO 9573 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-13 23:59:44.412  INFO 9573 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-13 23:59:44.412  INFO 9573 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-13 23:59:45.357  WARN 9573 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-13 23:59:47.017  INFO 9573 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 19.178 seconds (JVM running for 20.714)
+2018-05-13 23:59:47.017  INFO 9573 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.0.105:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-14 00:00:00.767  WARN 9573 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-14 00:00:19.445  INFO 9573 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-14 00:00:19.445  INFO 9573 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-14 00:00:19.445  INFO 9573 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-14 00:00:19.445  INFO 9573 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-14 00:00:21.952  INFO 9573 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-14 00:00:33.162  WARN 9573 --- [XNIO-2 task-13] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:8063743b2251f13ef15a8f7ec3cdd06e
+2018-05-14 00:00:33.163  WARN 9573 --- [XNIO-2 task-13] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:8063743b2251f13ef15a8f7ec3cdd06e
+2018-05-14 00:00:36.960  INFO 9573 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-14 00:00:43.765  WARN 9573 --- [TaskBatchingWorker-target_localhost-18] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:8063743b2251f13ef15a8f7ec3cdd06e:Heartbeat@localhost failed with response code 409
+2018-05-14 00:07:18.937  INFO 9573 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-14 00:07:18.938  INFO 9573 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-14 00:07:18.992  WARN 9573 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.

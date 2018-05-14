@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "model",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": "5",
+            "fieldValidateRulesMax": "200"
+        },
+        {
+            "fieldName": "manufacturer",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "40"
+        }
+    ],
+    "changelogDate": "20180513205803",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "bike",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "bike",
+    "searchEngine": false
+}
