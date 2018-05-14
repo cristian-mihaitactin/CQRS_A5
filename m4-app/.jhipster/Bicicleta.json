@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "serie",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "stare",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": "0",
+            "fieldValidateRulesMax": "10"
+        }
+    ],
+    "changelogDate": "20180514183436",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "bicicleta",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "m4",
+    "searchEngine": false
+}
