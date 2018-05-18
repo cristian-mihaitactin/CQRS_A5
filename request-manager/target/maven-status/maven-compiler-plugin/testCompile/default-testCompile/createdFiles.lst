@@ -1,0 +1,14 @@
+com\ip\requestmanager\config\WebConfigurerTest$MockFilterRegistration.class
+com\ip\requestmanager\web\rest\errors\ExceptionTranslatorTestController.class
+com\ip\requestmanager\web\rest\util\PaginationUtilUnitTest.class
+com\ip\requestmanager\config\WebConfigurerTest$MockServletRegistration.class
+com\ip\requestmanager\web\rest\TestUtil.class
+com\ip\requestmanager\config\WebConfigurerTestController.class
+com\ip\requestmanager\web\rest\errors\ExceptionTranslatorTestController$TestResponseStatusException.class
+com\ip\requestmanager\web\rest\TestUtil$ZonedDateTimeMatcher.class
+com\ip\requestmanager\web\rest\ProfileInfoResourceIntTest.class
+com\ip\requestmanager\web\rest\RequestResourceIntTest.class
+com\ip\requestmanager\config\WebConfigurerTest.class
+com\ip\requestmanager\web\rest\errors\ExceptionTranslatorIntTest.class
+com\ip\requestmanager\web\rest\errors\ExceptionTranslatorTestController$TestDTO.class
+com\ip\requestmanager\web\rest\LogsResourceIntTest.class
