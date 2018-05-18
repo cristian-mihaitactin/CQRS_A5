@@ -1,0 +1,10 @@
+M1: create|update|delete
+
+Microservicii:
+	-m1app -> entitate: bicicleta
+	-RequestManager -> entitate: request
+	-RequestCreate
+	-RequestUpdate
+	-RequestDelete
+
+Membrii: Schitcu Gabriel-Mihai(leader), Agafitei Andrei, Ghitun Ioana, Ursachi Adriana-Simona, Paladi Alexandru, Bompa Tudor.
