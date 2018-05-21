@@ -1,0 +1,61 @@
+/* tslint:disable max-line-length */
+import { ComponentFixture, TestBed, async, inject, fakeAsync, tick } from '@angular/core/testing';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
+import { Observable } from 'rxjs/Observable';
+import { JhiEventManager } from 'ng-jhipster';
+
+import { M3GatewayTestModule } from '../../../test.module';
+import { BicicletaDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bicicleta/bicicleta-delete-dialog.component';
+import { BicicletaService } from '../../../../../../main/webapp/app/entities/bicicleta/bicicleta.service';
+
+describe('Component Tests', () => {
+
+    describe('Bicicleta Management Delete Component', () => {
+        let comp: BicicletaDeleteDialogComponent;
+        let fixture: ComponentFixture<BicicletaDeleteDialogComponent>;
+        let service: BicicletaService;
+        let mockEventManager: any;
+        let mockActiveModal: any;
+
+        beforeEach(async(() => {
+            TestBed.configureTestingModule({
+                imports: [M3GatewayTestModule],
+                declarations: [BicicletaDeleteDialogComponent],
+                providers: [
+                    BicicletaService
+                ]
+            })
+            .overrideTemplate(BicicletaDeleteDialogComponent, '')
+            .compileComponents();
+        }));
+
+        beforeEach(() => {
+            fixture = TestBed.createComponent(BicicletaDeleteDialogComponent);
+            comp = fixture.componentInstance;
+            service = fixture.debugElement.injector.get(BicicletaService);
+            mockEventManager = fixture.debugElement.injector.get(JhiEventManager);
+            mockActiveModal = fixture.debugElement.injector.get(NgbActiveModal);
+        });
+
+        describe('confirmDelete', () => {
+            it('Should call delete service on confirmDelete',
+                inject([],
+                    fakeAsync(() => {
+                        // GIVEN
+                        spyOn(service, 'delete').and.returnValue(Observable.of({}));
+
+                        // WHEN
+                        comp.confirmDelete(123);
+                        tick();
+
+                        // THEN
+                        expect(service.delete).toHaveBeenCalledWith(123);
+                        expect(mockActiveModal.dismissSpy).toHaveBeenCalled();
+                        expect(mockEventManager.broadcastSpy).toHaveBeenCalled();
+                    })
+                )
+            );
+        });
+    });
+
+});
