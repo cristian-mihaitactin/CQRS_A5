@@ -1,2 +1,4 @@
-Microserviciul m4reparareapp cu entitatea Bicicleta (ID, Serie, Status) 
-Microserviciul m4-preluare (functie ce are ca parametru seria-> preluare(serie) ) Microserviciul m4-check-up (functie ce are ca parametru seria -> check-up(serie) ) Microserviciul m4-service (functie... ce are ca parametru seria -> reparare(serie) )
+Microserviciul m4app cu entitatea Bicicleta (ID, Serie, Status) 
+Microserviciul m4preluare (functie ce are ca parametru seria-> preluare(serie) ) 
+Microserviciul m4checkup (functie ce are ca parametru seria -> check-up(serie) ) 
+Microserviciul m4service (functie... ce are ca parametru seria -> reparare(serie) )
