@@ -1,0 +1,96 @@
+<form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+
+    <div class="modal-header">
+        <h4 class="modal-title" id="myBicicletaLabel">Create or edit a Bicicleta</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                (click)="clear()">&times;</button>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" [hidden]="!bicicleta.id">
+            <label for="id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                   [(ngModel)]="bicicleta.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_serie">Serie</label>
+            <input type="text" class="form-control" name="serie" id="field_serie"
+                [(ngModel)]="bicicleta.serie" required/>
+            <div [hidden]="!(editForm.controls.serie?.dirty && editForm.controls.serie?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.serie?.errors?.required">
+                   This field is required.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_pret">Pret</label>
+            <input type="number" class="form-control" name="pret" id="field_pret"
+                [(ngModel)]="bicicleta.pret" required/>
+            <div [hidden]="!(editForm.controls.pret?.dirty && editForm.controls.pret?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.pret?.errors?.required">
+                   This field is required.
+                </small>
+                <small class="form-text text-danger"
+                    [hidden]="!editForm.controls.pret?.errors?.number">
+                    This field should be a number.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_data_inchiriere">Data Inchiriere</label>
+            <div class="input-group">
+                <input id="field_data_inchiriere" type="text" class="form-control" name="data_inchiriere" ngbDatepicker  #data_inchiriereDp="ngbDatepicker" [(ngModel)]="bicicleta.data_inchiriere"
+                />
+                <span class="input-group-append">
+                    <button type="button" class="btn btn-secondary" (click)="data_inchiriereDp.toggle()"><i class="fa fa-calendar"></i></button>
+                </span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_timp_inchiriere">Timp Inchiriere</label>
+            <input type="number" class="form-control" name="timp_inchiriere" id="field_timp_inchiriere"
+                [(ngModel)]="bicicleta.timp_inchiriere" />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_data_return">Data Return</label>
+            <div class="input-group">
+                <input id="field_data_return" type="text" class="form-control" name="data_return" ngbDatepicker  #data_returnDp="ngbDatepicker" [(ngModel)]="bicicleta.data_return"
+                />
+                <span class="input-group-append">
+                    <button type="button" class="btn btn-secondary" (click)="data_returnDp.toggle()"><i class="fa fa-calendar"></i></button>
+                </span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_status">Status</label>
+            <input type="number" class="form-control" name="status" id="field_status"
+                [(ngModel)]="bicicleta.status" required/>
+            <div [hidden]="!(editForm.controls.status?.dirty && editForm.controls.status?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.status?.errors?.required">
+                   This field is required.
+                </small>
+                <small class="form-text text-danger"
+                    [hidden]="!editForm.controls.status?.errors?.number">
+                    This field should be a number.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_cnp_renter">Cnp Renter</label>
+            <input type="text" class="form-control" name="cnp_renter" id="field_cnp_renter"
+                [(ngModel)]="bicicleta.cnp_renter" />
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="clear()">
+            <span class="fa fa-ban"></span>&nbsp;<span>Cancel</span>
+        </button>
+        <button type="submit" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+            <span class="fa fa-save"></span>&nbsp;<span>Save</span>
+        </button>
+    </div>
+</form>
