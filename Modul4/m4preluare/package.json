@@ -1,0 +1,16 @@
+{
+  "name": "m-4-preluare",
+  "version": "0.0.0",
+  "description": "Description for m4preluare",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster": "4.14.3"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  }
+}
