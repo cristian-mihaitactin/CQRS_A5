@@ -1,0 +1,11 @@
+version: '2'
+services:
+    m2readapp-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/m2readapp/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=m2readapp
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
