@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "serie_user",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "data_inchiriere",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "id_bike",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180524132218",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "ordin",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "m3order",
+    "searchEngine": false
+}

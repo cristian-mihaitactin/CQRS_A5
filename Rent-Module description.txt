@@ -1,5 +1,0 @@
-Rent-Module(3 micro-servicii):
-1.Rent-App cu entitatea bicileta(id (number), serie(string), pret(number), data_inchiriere(date), data_return(date), timp_inchiriere(number--zile), status(number), CNP_renter(string)
-2.MicroInchiriere cu functia inchiriaza(data_inchiriere, CNP, timp_inchiriere) care actualizeaza data_return + schimba statusul bicicletei
-3.MicroReturn cu functia returneaza(serie, CNP) care actualizeaza data_inchiriere(NULL) si data_return + schimba statusul bicicletei
-
