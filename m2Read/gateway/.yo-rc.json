@@ -2,7 +2,7 @@
   "generator-jhipster": {
     "promptValues": {
       "packageName": "com.ip.gateway",
-      "microservicePath": "/Users/nybruger/Documents/IP/m2read/m2Read/m2readapp"
+      "microservicePath": "../../Modul3/m3order"
     },
     "jhipsterVersion": "4.14.4",
     "baseName": "gateway",
