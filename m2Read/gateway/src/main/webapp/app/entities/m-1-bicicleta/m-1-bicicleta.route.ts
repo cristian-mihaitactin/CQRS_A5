@@ -9,6 +9,12 @@ import { M1bicicletaRentedComponent } from './m-1-bicicletaRented.component';
 import { M1bicicletaAvailableComponent } from './m-1-bicicletaAvailable.component';
 import { M1bicicletaDetailComponent } from './m-1-bicicleta-detail.component';
 import { M1bicicletaPopupComponent } from './m-1-bicicleta-dialog.component';
+import { M1bicicletaInServicePopupComponent } from './m-1-bicicletaInService-dialog.component';
+import { M1bicicletaInServiceDialogComponent } from './m-1-bicicletaInService-dialog.component';
+import { M1bicicletaRentedPopupComponent } from './m-1-bicicletaRented-dialog.component';
+import { M1bicicletaRentedDialogComponent } from './m-1-bicicletaRented-dialog.component';
+import { M1bicicletaAvailablePopupComponent } from './m-1-bicicletaAvailable-dialog.component';
+import { M1bicicletaAvailableDialogComponent } from './m-1-bicicletaAvailable-dialog.component';
 import { M1bicicletaDeletePopupComponent } from './m-1-bicicleta-delete-dialog.component';
 
 @Injectable()
@@ -100,6 +106,36 @@ export const m1bicicletaPopupRoute: Routes = [
     {
         path: 'm-1-bicicleta/:id/edit',
         component: M1bicicletaPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'M1bicicletas'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
+    {
+        path: 'm-1-bicicletaInService/:id/edit',
+        component: M1bicicletaInServicePopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'M1bicicletas'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
+    {
+        path: 'm-1-bicicletaRented/:id/edit',
+        component: M1bicicletaRentedPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'M1bicicletas'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
+    {
+        path: 'm-1-bicicletaAvailable/:id/edit',
+        component: M1bicicletaAvailablePopupComponent,
         data: {
             authorities: ['ROLE_USER'],
             pageTitle: 'M1bicicletas'
