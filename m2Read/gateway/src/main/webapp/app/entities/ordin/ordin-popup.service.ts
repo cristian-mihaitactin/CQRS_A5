@@ -4,6 +4,7 @@ import { NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
 import { HttpResponse } from '@angular/common/http';
 import { Ordin } from './ordin.model';
 import { OrdinService } from './ordin.service';
+import { letProto } from 'rxjs/operator/let';
 
 @Injectable()
 export class OrdinPopupService {
@@ -26,6 +27,15 @@ export class OrdinPopupService {
             }
 
             if (id) {
+                if( id.indexOf('bikeId:') >= 0){
+                    let bikeId = id.split('bikeId:',2)[1];
+                    setTimeout(() => {
+                        let ordn = new Ordin();
+                        ordn.id_bike = bikeId;
+                        this.ngbModalRef = this.ordinModalRef(component, ordn);
+                        resolve(this.ngbModalRef);
+                    }, 0);
+                  }
                 this.ordinService.find(id)
                     .subscribe((ordinResponse: HttpResponse<Ordin>) => {
                         const ordin: Ordin = ordinResponse.body;

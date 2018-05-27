@@ -17,6 +17,8 @@ import { M1bicicletaAvailablePopupComponent } from './m-1-bicicletaAvailable-dia
 import { M1bicicletaAvailableDialogComponent } from './m-1-bicicletaAvailable-dialog.component';
 import { M1bicicletaDeletePopupComponent } from './m-1-bicicleta-delete-dialog.component';
 
+import { OrdinPopupComponent } from './../ordin/ordin-dialog.component';
+
 @Injectable()
 export class M1bicicletaResolvePagingParams implements Resolve<any> {
 
@@ -153,4 +155,27 @@ export const m1bicicletaPopupRoute: Routes = [
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     }
+];
+
+export const toOrderRoute: Routes = [
+    {
+        path: 'ordin-new',
+        component: OrdinPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'Ordins'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
+    {
+        path: 'ordin-bicicleta/:bikeId/addBikeOrder',
+        component: OrdinPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'Ordins'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
 ];

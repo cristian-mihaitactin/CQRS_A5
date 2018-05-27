@@ -23,11 +23,13 @@ import {
     m1bicicletaRoute,
     m1bicicletaPopupRoute,
     M1bicicletaResolvePagingParams,
+    toOrderRoute,
 } from './';
 
 const ENTITY_STATES = [
     ...m1bicicletaRoute,
     ...m1bicicletaPopupRoute,
+    ...toOrderRoute,
 ];
 
 @NgModule({
