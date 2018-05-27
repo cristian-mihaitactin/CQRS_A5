@@ -1,0 +1,78 @@
+<div>
+    <h2>
+        <span>M 1 Bicicletas</span>
+        <button class="btn btn-primary float-right jh-create-entity create-m-1-bicicleta" [routerLink]="['/', { outlets: { popup: ['m-1-bicicleta-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span >
+            Create new M 1 Bicicleta
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="m1bicicletas">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+            <th jhiSortBy="id"><span>ID</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="serie"><span>Serie</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="model"><span>Model</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="tip"><span>Tip</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="pret"><span>Pret</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="descriere"><span>Descriere</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="anFabricatie"><span>An Fabricatie</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="status"><span>Status</span> <span class="fa fa-sort"></span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let m1bicicleta of m1bicicletas ;trackBy: trackId">
+                <td><a [routerLink]="['../m-1-bicicleta', m1bicicleta.id ]">{{m1bicicleta.id}}</a></td>
+                <td>{{m1bicicleta.serie}}</td>
+                <td>{{m1bicicleta.model}}</td>
+                <td>{{m1bicicleta.tip}}</td>
+                <td>{{m1bicicleta.pret}}</td>
+                <td>{{m1bicicleta.descriere}}</td>
+                <td>{{m1bicicleta.anFabricatie}}</td>
+                <td>{{m1bicicleta.status}}</td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../m-1-bicicleta', m1bicicleta.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'm-1-bicicleta/'+ m1bicicleta.id + '/edit'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'm-1-bicicleta/'+ m1bicicleta.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div *ngIf="m1bicicletas && m1bicicletas.length">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="queryCount" [maxSize]="5" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="page" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage(page)"></ngb-pagination>
+        </div>
+    </div>
+</div>
