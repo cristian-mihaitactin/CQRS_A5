@@ -8,6 +8,9 @@ import { BicicletaDetailComponent } from './bicicleta-detail.component';
 import { BicicletaPopupComponent } from './bicicleta-dialog.component';
 import { BicicletaDeletePopupComponent } from './bicicleta-delete-dialog.component';
 
+//experiment
+import { OrdinPopupComponent } from './../ordin/ordin-dialog.component';
+/////////////
 @Injectable()
 export class BicicletaResolvePagingParams implements Resolve<any> {
 
