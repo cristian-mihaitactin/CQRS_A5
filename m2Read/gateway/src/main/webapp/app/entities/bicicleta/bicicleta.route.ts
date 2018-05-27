@@ -82,3 +82,16 @@ export const bicicletaPopupRoute: Routes = [
         outlet: 'popup'
     }
 ];
+
+export const toOrderRoute: Routes = [
+    {
+        path: 'ordin-new',
+        component: OrdinPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'Ordins'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
+];

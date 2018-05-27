@@ -14,11 +14,13 @@ import {
     bicicletaRoute,
     bicicletaPopupRoute,
     BicicletaResolvePagingParams,
+    toOrderRoute,
 } from './';
 
 const ENTITY_STATES = [
     ...bicicletaRoute,
     ...bicicletaPopupRoute,
+    ...toOrderRoute,
 ];
 
 @NgModule({
