@@ -10,7 +10,7 @@ import { ITEMS_PER_PAGE, Principal } from '../../shared';
 
 @Component({
     selector: 'jhi-m-1-bicicleta',
-    templateUrl: './m-1-bicicleta.component.html'
+    templateUrl: './m-1-bicicletaInService.component.html'
 })
 export class M1bicicletaInServiceComponent implements OnInit, OnDestroy {
 
