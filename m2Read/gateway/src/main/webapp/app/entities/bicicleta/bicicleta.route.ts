@@ -8,6 +8,8 @@ import { BicicletaDetailComponent } from './bicicleta-detail.component';
 import { BicicletaPopupComponent } from './bicicleta-dialog.component';
 import { BicicletaDeletePopupComponent } from './bicicleta-delete-dialog.component';
 
+import { OrdinPopupComponent } from './../ordin/ordin-dialog.component';
+
 @Injectable()
 export class BicicletaResolvePagingParams implements Resolve<any> {
 
@@ -78,4 +80,17 @@ export const bicicletaPopupRoute: Routes = [
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     }
+];
+
+export const toOrderRoute: Routes = [
+    {
+        path: 'ordin-new',
+        component: OrdinPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'Ordins'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
 ];
