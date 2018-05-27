@@ -9,6 +9,7 @@ import { JhiEventManager } from 'ng-jhipster';
 import { Ordin } from './ordin.model';
 import { OrdinPopupService } from './ordin-popup.service';
 import { OrdinService } from './ordin.service';
+import { concat } from 'rxjs/operator/concat';
 
 @Component({
     selector: 'jhi-ordin-dialog',
@@ -80,12 +81,18 @@ export class OrdinPopupComponent implements OnInit, OnDestroy {
             if ( params['id'] ) {
                 this.ordinPopupService
                     .open(OrdinDialogComponent as Component, params['id']);
+
+            }else if (params['bikeId']){
+                this.ordinPopupService
+                .open(OrdinDialogComponent as Component, 'bikeId:' + params['bikeId']);
+
             } else {
                 this.ordinPopupService
                     .open(OrdinDialogComponent as Component);
+
             }
         });
-    }
+            }
 
     ngOnDestroy() {
         this.routeSub.unsubscribe();

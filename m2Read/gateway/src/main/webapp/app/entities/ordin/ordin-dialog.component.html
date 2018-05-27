@@ -64,4 +64,13 @@
             <span class="fa fa-save"></span>&nbsp;<span>Save</span>
         </button>
     </div>
+    <script>
+            (function() {
+                alert('its working?');
+                var id_bike_val = document.getElementById("field_id_bike").value;
+                if (id_bike_val == null || id_bike_val == 'unidentified'){
+                    document.getElementById("field_id_bike").disabled = true; 
+                }
+            })();
+            </script>
 </form>

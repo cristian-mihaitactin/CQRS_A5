@@ -168,4 +168,14 @@ export const toOrderRoute: Routes = [
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     },
+    {
+        path: 'ordin-bicicleta/:bikeId/addBikeOrder',
+        component: OrdinPopupComponent,
+        data: {
+            authorities: ['ROLE_USER'],
+            pageTitle: 'Ordins'
+        },
+        canActivate: [UserRouteAccessService],
+        outlet: 'popup'
+    },
 ];
