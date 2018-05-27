@@ -49,7 +49,8 @@
 
     <button type="button"
             (click)="previousState()"
-            class="btn btn-info">
+            class="btn btn-info"
+            [routerLink]="['/', { outlets: { popup: ['ordin-new'] } }]">
         <span class="fa fa-ambulance"></span>&nbsp;<span> Rent</span>
     </button>
 </div>
