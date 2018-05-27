@@ -1,0 +1,50 @@
+
+<div *ngIf="m1bicicleta">
+    <h2><span>M 1 Bicicleta</span> {{m1bicicleta.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span>Serie</span></dt>
+        <dd>
+            <span>{{m1bicicleta.serie}}</span>
+        </dd>
+        <dt><span>Model</span></dt>
+        <dd>
+            <span>{{m1bicicleta.model}}</span>
+        </dd>
+        <dt><span>Tip</span></dt>
+        <dd>
+            <span>{{m1bicicleta.tip}}</span>
+        </dd>
+        <dt><span>Pret</span></dt>
+        <dd>
+            <span>{{m1bicicleta.pret}}</span>
+        </dd>
+        <dt><span>Descriere</span></dt>
+        <dd>
+            <span>{{m1bicicleta.descriere}}</span>
+        </dd>
+        <dt><span>An Fabricatie</span></dt>
+        <dd>
+            <span>{{m1bicicleta.anFabricatie}}</span>
+        </dd>
+        <dt><span>Status</span></dt>
+        <dd>
+            <span>{{m1bicicleta.status}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'm-1-bicicleta/'+ m1bicicleta.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span> Edit</span>
+    </button>
+</div>
