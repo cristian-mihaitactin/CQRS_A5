@@ -83,4 +83,18 @@ public class M1bicicletaServiceImpl implements M1bicicletaService {
         log.debug("Request to delete M1bicicleta : {}", id);
         m1bicicletaRepository.delete(id);
     }
+
+	@Override
+	public void toRepair(Long id) {
+        M1bicicleta bicicleta = m1bicicletaRepository.findOne(id);
+        bicicleta.setStatus(3);
+        m1bicicletaRepository.saveAndFlush(bicicleta);
+	}
+
+	@Override
+	public void toAvailable(Long id) {
+		M1bicicleta bicicleta = m1bicicletaRepository.findOne(id);
+        bicicleta.setStatus(1);
+        m1bicicletaRepository.saveAndFlush(bicicleta);
+	}
 }

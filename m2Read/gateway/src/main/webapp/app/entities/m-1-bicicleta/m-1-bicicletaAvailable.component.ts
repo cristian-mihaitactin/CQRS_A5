@@ -7,7 +7,6 @@ import { JhiEventManager, JhiParseLinks, JhiAlertService } from 'ng-jhipster';
 import { M1bicicleta } from './m-1-bicicleta.model';
 import { M1bicicletaService } from './m-1-bicicleta.service';
 import { ITEMS_PER_PAGE, Principal } from '../../shared';
-
 @Component({
     selector: 'jhi-m-1-bicicleta',
     templateUrl: './m-1-bicicletaAvailable.component.html'
@@ -88,6 +87,26 @@ currentAccount: any;
         });
         this.registerChangeInM1bicicletas();
     }
+    
+    // confirmDelete(m1bicicleta: M1bicicleta) {
+    //     this.m1bicicletaService.update(m1bicicleta).subscribe((response) => {
+    //         this.eventManager.broadcast({
+    //             name: 'm1bicicletaListModification',
+    //             content: 'Moved an m1bicicleta to repair'
+    //         });
+    //     });
+    // }
+   
+
+    toRepair(m1bicicleta: M1bicicleta) {
+        console.log("toRepair click");
+        m1bicicleta.status = 3;
+        console.log(m1bicicleta);
+        this.m1bicicletaService.update(m1bicicleta).subscribe((response) => {
+            this.loadAll();
+        });
+    }
+    
 
     ngOnDestroy() {
         this.eventManager.destroy(this.eventSubscriber);

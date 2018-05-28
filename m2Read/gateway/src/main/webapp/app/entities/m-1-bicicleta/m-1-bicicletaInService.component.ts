@@ -89,6 +89,16 @@ currentAccount: any;
         this.registerChangeInM1bicicletas();
     }
 
+
+    toAvailable(m1bicicleta: M1bicicleta) {
+        console.log("toAvailable click");
+        m1bicicleta.status = 1;
+        console.log(m1bicicleta);
+        this.m1bicicletaService.update(m1bicicleta).subscribe((response) => {
+            this.loadAll();
+        });
+    }
+
     ngOnDestroy() {
         this.eventManager.destroy(this.eventSubscriber);
     }
