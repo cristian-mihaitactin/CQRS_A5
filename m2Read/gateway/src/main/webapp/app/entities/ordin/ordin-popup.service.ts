@@ -6,14 +6,18 @@ import { Ordin } from './ordin.model';
 import { OrdinService } from './ordin.service';
 import { letProto } from 'rxjs/operator/let';
 
+//import { M1bicicleta } from './../m-1-bicicleta/m-1-bicicleta.model';
+//import { M1bicicletaService } from './../m-1-bicicleta/m-1-bicicleta.service';
+
 @Injectable()
 export class OrdinPopupService {
     private ngbModalRef: NgbModalRef;
-
+    //private m1bicicleta: M1bicicleta;
     constructor(
         private modalService: NgbModal,
         private router: Router,
-        private ordinService: OrdinService
+        private ordinService: OrdinService,
+        //private m1bicicletaService: M1bicicletaService
 
     ) {
         this.ngbModalRef = null;
@@ -35,6 +39,7 @@ export class OrdinPopupService {
                         this.ngbModalRef = this.ordinModalRef(component, ordn);
                         resolve(this.ngbModalRef);
                     }, 0);
+                    //this.toRented(bikeId);
                   }
                 this.ordinService.find(id)
                     .subscribe((ordinResponse: HttpResponse<Ordin>) => {

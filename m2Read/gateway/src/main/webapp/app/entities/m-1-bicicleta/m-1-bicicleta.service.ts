@@ -40,6 +40,7 @@ export class M1bicicletaService {
     }
 
     find(id: number): Observable<EntityResponseType> {
+        console.log("in bike find");
         return this.http.get<M1bicicleta>(`${this.resourceUrl}/${id}`, { observe: 'response'})
             .map((res: EntityResponseType) => this.convertResponse(res));
     }
