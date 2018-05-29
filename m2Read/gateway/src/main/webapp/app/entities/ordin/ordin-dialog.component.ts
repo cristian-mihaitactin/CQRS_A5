@@ -83,8 +83,16 @@ export class OrdinPopupComponent implements OnInit, OnDestroy {
                     .open(OrdinDialogComponent as Component, params['id']);
 
             }else if (params['bikeId']){
-                this.ordinPopupService
-                .open(OrdinDialogComponent as Component, 'bikeId:' + params['bikeId']);
+                try 
+                {
+                    this.ordinPopupService
+                    .open(OrdinDialogComponent as Component, 'bikeId:' + params['bikeId']);
+                }catch(error) {
+                    console.error(error);
+                    // expected output: SyntaxError: unterminated string literal
+                    // Note - error messages will vary depending on browser
+                  }
+                
 
             } else {
                 this.ordinPopupService
