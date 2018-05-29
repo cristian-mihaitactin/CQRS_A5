@@ -1,0 +1,420 @@
+2018-05-27 17:13:10.205  INFO 25931 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-27 17:13:15.264  INFO 25931 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-27 17:13:15.280  INFO 25931 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-27 17:13:16.256  WARN 25931 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 17:13:19.438  WARN 25931 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 17:13:20.701 DEBUG 25931 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-27 17:13:20.715 DEBUG 25931 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 12 ms
+2018-05-27 17:13:22.258  INFO 25931 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-27 17:13:22.258  INFO 25931 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-27 17:13:22.268  INFO 25931 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527430402268 with initial instances count: 0
+2018-05-27 17:13:22.710  INFO 25931 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-27 17:13:22.711  INFO 25931 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-27 17:13:22.711  INFO 25931 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-27 17:13:22.711  INFO 25931 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-27 17:13:23.762  WARN 25931 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-27 17:13:25.042  INFO 25931 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 17.461 seconds (JVM running for 17.986)
+2018-05-27 17:13:25.043  INFO 25931 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.0.104:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-27 17:14:09.161  WARN 25931 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-27 17:19:03.623  INFO 25931 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-27 17:19:03.623  INFO 25931 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-27 17:19:03.657  WARN 25931 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 17:27:22.368  INFO 27526 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-27 17:27:28.257  INFO 27526 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-27 17:27:28.271  INFO 27526 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-27 17:27:29.735  WARN 27526 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 17:27:33.377  WARN 27526 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 17:27:35.073 DEBUG 27526 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-27 17:27:35.085 DEBUG 27526 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 12 ms
+2018-05-27 17:27:37.666  INFO 27526 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-27 17:27:37.667  INFO 27526 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-27 17:27:37.678  INFO 27526 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527431257678 with initial instances count: 0
+2018-05-27 17:27:38.550  INFO 27526 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-27 17:27:38.550  INFO 27526 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-27 17:27:38.550  INFO 27526 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-27 17:27:38.553  INFO 27526 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-27 17:27:40.360  WARN 27526 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-27 17:27:43.266  INFO 27526 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 24.938 seconds (JVM running for 25.759)
+2018-05-27 17:27:43.266  INFO 27526 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.0.104:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-27 17:27:47.258  WARN 27526 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-27 17:27:53.273  INFO 27526 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-27 17:27:53.274  INFO 27526 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-27 17:27:53.274  INFO 27526 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-27 17:27:53.274  INFO 27526 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-27 17:27:58.886  WARN 27526 --- [XNIO-2 task-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:1a67fe81305f7914a618dc30ca662756
+2018-05-27 17:27:58.886  WARN 27526 --- [XNIO-2 task-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:1a67fe81305f7914a618dc30ca662756
+2018-05-27 17:28:03.173  INFO 27526 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 17:30:28.191  INFO 27526 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 17:33:40.489  INFO 27526 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-27 17:33:40.489  INFO 27526 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-27 17:33:40.531  WARN 27526 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 18:22:23.596  INFO 2155 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-27 18:22:28.968  INFO 2155 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-27 18:22:28.978  INFO 2155 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-27 18:22:29.931  WARN 2155 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 18:22:32.863  WARN 2155 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-27 18:22:34.605 DEBUG 2155 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-27 18:22:34.620 DEBUG 2155 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 14 ms
+2018-05-27 18:22:37.084  INFO 2155 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-27 18:22:37.085  INFO 2155 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-27 18:22:37.101  INFO 2155 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527434557101 with initial instances count: 0
+2018-05-27 18:22:38.229  INFO 2155 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-27 18:22:38.230  INFO 2155 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-27 18:22:38.230  INFO 2155 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-27 18:22:38.230  INFO 2155 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-27 18:22:39.848  WARN 2155 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-27 18:22:41.873  INFO 2155 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 21.435 seconds (JVM running for 21.975)
+2018-05-27 18:22:41.874  INFO 2155 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.0.104:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-27 18:22:46.653  WARN 2155 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-27 18:22:52.636  INFO 2155 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-27 18:22:52.637  INFO 2155 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-27 18:22:52.644  INFO 2155 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-27 18:22:52.644  INFO 2155 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-27 18:22:58.596  WARN 2155 --- [XNIO-2 task-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:6e6e2f7485c8eebbbb5eafb2ab8dbf62
+2018-05-27 18:22:58.597  WARN 2155 --- [XNIO-2 task-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:6e6e2f7485c8eebbbb5eafb2ab8dbf62
+2018-05-27 18:23:01.687  INFO 2155 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 18:23:26.696  INFO 2155 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 18:23:51.699  INFO 2155 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 18:48:16.436 ERROR 2155 --- [TaskBatchingWorker-target_localhost-11] c.n.e.cluster.ReplicationTaskProcessor   : Network level connection to peer localhost; retrying after delay
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+
+2018-05-27 19:47:09.280 ERROR 2155 --- [TaskBatchingWorker-target_localhost-15] c.n.e.cluster.ReplicationTaskProcessor   : Network level connection to peer localhost; retrying after delay
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+
+2018-05-27 23:37:56.575  INFO 2155 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 23:38:00.151  INFO 2155 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-27 23:38:00.283  INFO 2155 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-27 23:38:01.567  WARN 2155 --- [XNIO-2 task-39] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: M1APP/m1app:12b8ec32854933f6a37d90c56289447d
+2018-05-27 23:38:01.719  WARN 2155 --- [TaskBatchingWorker-target_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task M1APP/m1app:12b8ec32854933f6a37d90c56289447d:Cancel@localhost failed with response code 404
+2018-05-27 23:38:02.476  WARN 2155 --- [TaskBatchingWorker-target_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : M1APP/m1app:12b8ec32854933f6a37d90c56289447d:Cancel@localhost: missing entry.
+2018-05-27 23:38:02.694  INFO 2155 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 23:38:12.695  INFO 2155 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-27 23:38:13.133  WARN 2155 --- [XNIO-2 task-42] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/gateway:6e6e2f7485c8eebbbb5eafb2ab8dbf62
+2018-05-27 23:38:13.134  WARN 2155 --- [TaskBatchingWorker-target_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:6e6e2f7485c8eebbbb5eafb2ab8dbf62:Cancel@localhost failed with response code 404
+2018-05-27 23:38:13.134  WARN 2155 --- [TaskBatchingWorker-target_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/gateway:6e6e2f7485c8eebbbb5eafb2ab8dbf62:Cancel@localhost: missing entry.
+2018-05-27 23:38:16.287  WARN 2155 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:12b8ec32854933f6a37d90c56289447d
+2018-05-27 23:38:26.787  WARN 2155 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-28 11:15:38.039  INFO 20180 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-28 11:15:49.115  INFO 20180 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-28 11:15:49.137  INFO 20180 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-28 11:15:51.868  WARN 20180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-28 11:16:00.472  WARN 20180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-28 11:16:04.468 DEBUG 20180 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-28 11:16:04.534 DEBUG 20180 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 65 ms
+2018-05-28 11:16:08.782  INFO 20180 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-28 11:16:08.783  INFO 20180 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-28 11:16:08.800  INFO 20180 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527495368799 with initial instances count: 0
+2018-05-28 11:16:11.525  INFO 20180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-28 11:16:11.526  INFO 20180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-28 11:16:11.527  INFO 20180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-28 11:16:11.531  INFO 20180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-28 11:16:18.313  WARN 20180 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-28 11:16:25.555  INFO 20180 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 52.07 seconds (JVM running for 53.042)
+2018-05-28 11:16:25.648  INFO 20180 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.0.104:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-28 11:16:29.765  WARN 20180 --- [XNIO-2 task-5] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-28 11:16:29.853  INFO 20180 --- [XNIO-2 task-3] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-28 11:16:29.853  INFO 20180 --- [XNIO-2 task-3] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-28 11:16:29.854  INFO 20180 --- [XNIO-2 task-3] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-28 11:16:29.854  INFO 20180 --- [XNIO-2 task-3] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-28 11:16:31.012  WARN 20180 --- [XNIO-2 task-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:eb9cbac72262c26804b383aa7d303968
+2018-05-28 11:16:31.012  WARN 20180 --- [XNIO-2 task-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: M1APP - m1app:1cf34d651b12a4304d7ca450270ab545
+2018-05-28 11:16:31.012  WARN 20180 --- [XNIO-2 task-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:eb9cbac72262c26804b383aa7d303968
+2018-05-28 11:16:31.012  WARN 20180 --- [XNIO-2 task-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): M1APP - m1app:1cf34d651b12a4304d7ca450270ab545
+2018-05-28 11:16:33.329  INFO 20180 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 11:17:24.322 ERROR 20180 --- [TaskBatchingWorker-target_localhost-1] c.n.e.cluster.ReplicationTaskProcessor   : Network level connection to peer localhost; retrying after delay
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+
+2018-05-28 11:17:44.332  INFO 20180 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 11:31:17.545  WARN 20180 --- [XNIO-2 task-53] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:6314240ab114e61c606d61d8f183bf3a
+2018-05-28 11:31:17.546  WARN 20180 --- [XNIO-2 task-53] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:6314240ab114e61c606d61d8f183bf3a
+2018-05-28 11:31:19.415  INFO 20180 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 11:31:21.065  WARN 20180 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:eb9cbac72262c26804b383aa7d303968
+2018-05-28 11:31:24.415  INFO 20180 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 11:32:21.066  WARN 20180 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:6314240ab114e61c606d61d8f183bf3a
+2018-05-28 11:32:24.420  INFO 20180 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 11:33:05.087  WARN 20180 --- [XNIO-2 task-46] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:0c250ba9fee411a40815f8619f6997a7
+2018-05-28 11:33:05.088  WARN 20180 --- [XNIO-2 task-46] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:0c250ba9fee411a40815f8619f6997a7
+2018-05-28 11:33:09.840  INFO 20180 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 14:10:55.885  INFO 20180 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-28 14:10:55.889  INFO 20180 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-28 14:10:55.989  WARN 20180 --- [Thread-15] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-28 22:20:58.981  INFO 27619 --- [main] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: swagger,dev,native
+2018-05-28 22:21:20.527  INFO 27619 --- [main] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: swagger
+2018-05-28 22:21:20.597  INFO 27619 --- [main] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2018-05-28 22:21:26.139  WARN 27619 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-28 22:21:36.324  WARN 27619 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-28 22:21:50.558 DEBUG 27619 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2018-05-28 22:21:50.573 DEBUG 27619 --- [main] i.g.j.c.apidoc.SwaggerConfiguration      : Started Swagger in 15 ms
+2018-05-28 22:22:07.571  INFO 27619 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-28 22:22:07.572  INFO 27619 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-28 22:22:07.666  INFO 27619 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527535327605 with initial instances count: 0
+2018-05-28 22:22:14.062  INFO 27619 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-28 22:22:14.063  INFO 27619 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-28 22:22:14.063  INFO 27619 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-28 22:22:14.063  INFO 27619 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-28 22:22:17.965  WARN 27619 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with key 'zuulEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-05-28 22:22:21.321  INFO 27619 --- [main] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 90.627 seconds (JVM running for 92.354)
+2018-05-28 22:22:21.357  INFO 27619 --- [main] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761
+	External: 	http://192.168.43.24:8761
+	Profile(s): 	[swagger, dev, native]
+----------------------------------------------------------
+2018-05-28 22:22:26.022  INFO 27619 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-28 22:22:26.025  INFO 27619 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-28 22:22:26.028  INFO 27619 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-28 22:22:26.028  INFO 27619 --- [XNIO-2 task-2] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-28 22:22:27.111  WARN 27619 --- [XNIO-2 task-5] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-28 22:22:30.794  WARN 27619 --- [XNIO-2 task-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:5313050bef7a669d723ba9b87a528f61
+2018-05-28 22:22:30.794  WARN 27619 --- [XNIO-2 task-4] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: M1APP - m1app:3bef24cad7d6d1922d8ad1d10431d7cd
+2018-05-28 22:22:30.794  WARN 27619 --- [XNIO-2 task-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:5313050bef7a669d723ba9b87a528f61
+2018-05-28 22:22:30.795  WARN 27619 --- [XNIO-2 task-4] c.n.eureka.resources.InstanceResource    : Not Found (Renew): M1APP - m1app:3bef24cad7d6d1922d8ad1d10431d7cd
+2018-05-28 22:22:30.800  WARN 27619 --- [XNIO-2 task-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: M1APP/m1app:3bef24cad7d6d1922d8ad1d10431d7cd
+2018-05-28 22:22:36.861  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:23:19.422  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:3bef24cad7d6d1922d8ad1d10431d7cd
+2018-05-28 22:23:21.867  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:23:36.869  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:24:19.421  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M3ORDER/m3order:91517caf18f1d93eab291b16df154b9a
+2018-05-28 22:24:21.875  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:27:21.891  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:27:30.572  WARN 27619 --- [XNIO-2 task-46] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/gateway:5313050bef7a669d723ba9b87a528f61
+2018-05-28 22:27:30.573  WARN 27619 --- [TaskBatchingWorker-target_localhost-6] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:5313050bef7a669d723ba9b87a528f61:Cancel@localhost failed with response code 404
+2018-05-28 22:27:30.573  WARN 27619 --- [TaskBatchingWorker-target_localhost-6] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/gateway:5313050bef7a669d723ba9b87a528f61:Cancel@localhost: missing entry.
+2018-05-28 22:27:31.892  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:27:41.893  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:28:19.934  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:b0b058799008515c93660a78757b2d4d
+2018-05-28 22:28:22.411  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:29:19.934  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:f18291ba24055b8a288a8d7c869a7518
+2018-05-28 22:29:22.418  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:30:19.934  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:d21cc07bfdd690c0c97452e26f1e148d
+2018-05-28 22:30:22.424  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:34:05.215  WARN 27619 --- [XNIO-2 task-4] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2018-05-28 22:34:19.376  WARN 27619 --- [XNIO-2 task-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:2c37de4c23208c5572104dcf003e8853
+2018-05-28 22:34:19.376  WARN 27619 --- [XNIO-2 task-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:2c37de4c23208c5572104dcf003e8853
+2018-05-28 22:34:22.439  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:34:37.441  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:41:17.477  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:42:19.936  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:b36281a3dad3bf94e1413d4d2551e1c9
+2018-05-28 22:42:22.483  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:43:05.504  WARN 27619 --- [TaskBatchingWorker-target_localhost-9] c.n.eureka.cluster.ReplicationTask       : The replication of task M1APP/m1app:5989dc76d712f66fb52aa872d33a6ed9:Heartbeat@localhost failed with response code 409
+2018-05-28 22:43:12.487  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:43:19.936  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:5989dc76d712f66fb52aa872d33a6ed9
+2018-05-28 22:43:22.489  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:46:19.936  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:2c37de4c23208c5572104dcf003e8853
+2018-05-28 22:46:22.503  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:47:07.130  WARN 27619 --- [XNIO-2 task-13] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:b255abded4b60cb738018f3b6f34c698
+2018-05-28 22:47:07.131  WARN 27619 --- [XNIO-2 task-13] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:b255abded4b60cb738018f3b6f34c698
+2018-05-28 22:47:07.505  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:47:17.507  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:47:19.936  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:d15b9100bee1d53ef51001bd686c4f61
+2018-05-28 22:47:22.508  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:49:07.520  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:49:19.937  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:a0119a64d71e27a4a304472321cf68c1
+2018-05-28 22:49:22.522  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:54:19.937  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:b255abded4b60cb738018f3b6f34c698
+2018-05-28 22:54:22.542  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:54:46.809  WARN 27619 --- [XNIO-2 task-60] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:3354d4a8d0f665eda0b2f23325aabc17
+2018-05-28 22:54:46.810  WARN 27619 --- [XNIO-2 task-60] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:3354d4a8d0f665eda0b2f23325aabc17
+2018-05-28 22:54:47.543  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:55:02.545  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:55:19.937  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for M1APP/m1app:08da98aa25799c414dd92122fb45beef
+2018-05-28 22:55:22.546  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:58:19.937  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:3354d4a8d0f665eda0b2f23325aabc17
+2018-05-28 22:58:22.558  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:58:30.092  WARN 27619 --- [XNIO-2 task-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:28431008ea5e1ace5062fef4c6c441b4
+2018-05-28 22:58:30.093  WARN 27619 --- [XNIO-2 task-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:28431008ea5e1ace5062fef4c6c441b4
+2018-05-28 22:58:32.559  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 22:58:35.642  WARN 27619 --- [TaskBatchingWorker-target_localhost-2] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:28431008ea5e1ace5062fef4c6c441b4:Heartbeat@localhost failed with response code 409
+2018-05-28 23:03:36.489  WARN 27619 --- [XNIO-2 task-64] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/gateway:28431008ea5e1ace5062fef4c6c441b4
+2018-05-28 23:03:36.490  WARN 27619 --- [TaskBatchingWorker-target_localhost-1] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:28431008ea5e1ace5062fef4c6c441b4:Cancel@localhost failed with response code 404
+2018-05-28 23:03:36.490  WARN 27619 --- [TaskBatchingWorker-target_localhost-1] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/gateway:28431008ea5e1ace5062fef4c6c441b4:Cancel@localhost: missing entry.
+2018-05-28 23:03:37.577  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 23:05:32.081  WARN 27619 --- [XNIO-2 task-62] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:7b6aa7731ed0cc09c91bf6dcd117aec1
+2018-05-28 23:05:32.081  WARN 27619 --- [XNIO-2 task-62] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:7b6aa7731ed0cc09c91bf6dcd117aec1
+2018-05-28 23:05:32.584  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 23:09:19.938  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:7b6aa7731ed0cc09c91bf6dcd117aec1
+2018-05-28 23:09:22.598  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-28 23:12:25.645  WARN 27619 --- [XNIO-2 task-46] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:8a107eba490d276da3809e9fdc0d44fe
+2018-05-28 23:12:25.645  WARN 27619 --- [XNIO-2 task-46] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:8a107eba490d276da3809e9fdc0d44fe
+2018-05-28 23:12:27.607  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:17:19.947  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:8a107eba490d276da3809e9fdc0d44fe
+2018-05-29 00:17:22.833  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:28:05.638  WARN 27619 --- [XNIO-2 task-40] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:cc9ce96217469c6a4cb1db4d445db5a4
+2018-05-29 00:28:05.639  WARN 27619 --- [XNIO-2 task-40] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:cc9ce96217469c6a4cb1db4d445db5a4
+2018-05-29 00:28:07.867  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:39:15.275  WARN 27619 --- [XNIO-2 task-53] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:bb14ef7a30242f6b25a39981a5962b7f
+2018-05-29 00:39:15.276  WARN 27619 --- [XNIO-2 task-53] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:bb14ef7a30242f6b25a39981a5962b7f
+2018-05-29 00:39:17.905  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:39:19.950  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:cc9ce96217469c6a4cb1db4d445db5a4
+2018-05-29 00:39:22.906  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:44:04.092  WARN 27619 --- [XNIO-2 task-11] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:6b7fc79c17fe06873315d5d96645f72f
+2018-05-29 00:44:04.092  WARN 27619 --- [XNIO-2 task-11] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:6b7fc79c17fe06873315d5d96645f72f
+2018-05-29 00:44:07.921  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:44:19.951  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:bb14ef7a30242f6b25a39981a5962b7f
+2018-05-29 00:44:22.922  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:54:19.952  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:6b7fc79c17fe06873315d5d96645f72f
+2018-05-29 00:54:20.367  WARN 27619 --- [XNIO-2 task-35] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:33fce75cd9eb8f8fe7818feb054ebd91
+2018-05-29 00:54:20.367  WARN 27619 --- [XNIO-2 task-35] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:33fce75cd9eb8f8fe7818feb054ebd91
+2018-05-29 00:54:22.954  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 00:54:25.913  WARN 27619 --- [TaskBatchingWorker-target_localhost-13] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:33fce75cd9eb8f8fe7818feb054ebd91:Heartbeat@localhost failed with response code 409
+2018-05-29 01:05:28.172  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:33fce75cd9eb8f8fe7818feb054ebd91
+2018-05-29 01:05:28.897  WARN 27619 --- [XNIO-2 task-18] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:33fce75cd9eb8f8fe7818feb054ebd91
+2018-05-29 01:05:28.897  WARN 27619 --- [XNIO-2 task-18] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:33fce75cd9eb8f8fe7818feb054ebd91
+2018-05-29 01:13:28.173  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:33fce75cd9eb8f8fe7818feb054ebd91
+2018-05-29 01:13:32.985  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:26:26.297  WARN 27619 --- [XNIO-2 task-30] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:69492253a07f3e9fdb83c37493c009db
+2018-05-29 01:26:26.297  WARN 27619 --- [XNIO-2 task-30] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:69492253a07f3e9fdb83c37493c009db
+2018-05-29 01:26:28.992  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:31:29.141  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:69492253a07f3e9fdb83c37493c009db
+2018-05-29 01:31:32.203  WARN 27619 --- [XNIO-2 task-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:37a7c842e244fb3d73588ed5a5ee9ca0
+2018-05-29 01:31:32.203  WARN 27619 --- [XNIO-2 task-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:37a7c842e244fb3d73588ed5a5ee9ca0
+2018-05-29 01:31:34.009  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:34:52.801  WARN 27619 --- [XNIO-2 task-16] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: GATEWAY/gateway:37a7c842e244fb3d73588ed5a5ee9ca0
+2018-05-29 01:34:52.802  WARN 27619 --- [TaskBatchingWorker-target_localhost-18] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:37a7c842e244fb3d73588ed5a5ee9ca0:Cancel@localhost failed with response code 404
+2018-05-29 01:34:52.802  WARN 27619 --- [TaskBatchingWorker-target_localhost-18] c.netflix.eureka.cluster.PeerEurekaNode  : GATEWAY/gateway:37a7c842e244fb3d73588ed5a5ee9ca0:Cancel@localhost: missing entry.
+2018-05-29 01:34:54.022  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:35:38.768  WARN 27619 --- [XNIO-2 task-43] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:69e159fc2c4305e46bdafda8f134f176
+2018-05-29 01:35:38.768  WARN 27619 --- [XNIO-2 task-43] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:69e159fc2c4305e46bdafda8f134f176
+2018-05-29 01:35:39.024  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:39:24.044  WARN 27619 --- [XNIO-2 task-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:2892ee3b63ac3af200c42f425ad0f2e0
+2018-05-29 01:39:24.044  WARN 27619 --- [XNIO-2 task-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:2892ee3b63ac3af200c42f425ad0f2e0
+2018-05-29 01:39:29.037  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:39:29.143  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:69e159fc2c4305e46bdafda8f134f176
+2018-05-29 01:39:29.597  WARN 27619 --- [TaskBatchingWorker-target_localhost-5] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:2892ee3b63ac3af200c42f425ad0f2e0:Heartbeat@localhost failed with response code 409
+2018-05-29 01:39:34.038  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:44:17.551  WARN 27619 --- [XNIO-2 task-25] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:db654058f367671f2b1bd74ea564eb38
+2018-05-29 01:44:17.552  WARN 27619 --- [XNIO-2 task-25] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:db654058f367671f2b1bd74ea564eb38
+2018-05-29 01:44:19.053  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2018-05-29 01:44:23.105  WARN 27619 --- [TaskBatchingWorker-target_localhost-17] c.n.eureka.cluster.ReplicationTask       : The replication of task GATEWAY/gateway:db654058f367671f2b1bd74ea564eb38:Heartbeat@localhost failed with response code 409
+2018-05-29 01:44:29.144  WARN 27619 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for GATEWAY/gateway:2892ee3b63ac3af200c42f425ad0f2e0
+2018-05-29 01:44:34.054  INFO 27619 --- [pool-4-thread-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration

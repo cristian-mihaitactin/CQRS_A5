@@ -124,4 +124,27 @@ public class M1bicicletaResource {
         m1bicicletaService.delete(id);
         return ResponseEntity.ok().headers(HeaderUtil.createEntityDeletionAlert(ENTITY_NAME, id.toString())).build();
     }
+
+
+    @PutMapping("/m-1-bicicletas/torepair")
+    @Timed
+    public ResponseEntity<M1bicicletaDTO> toRepair( @RequestBody M1bicicletaDTO m1bicicletaDTO)
+            throws URISyntaxException {
+        log.debug("torepair REQUEST: {}", m1bicicletaDTO);
+        m1bicicletaService.toRepair(m1bicicletaDTO.getId());
+        return ResponseEntity.ok()
+                .headers(HeaderUtil.createEntityUpdateAlert(ENTITY_NAME, m1bicicletaDTO.getId().toString()))
+                .body(m1bicicletaDTO);
+    }
+
+    @PutMapping("/m-1-bicicletas/toavailable")
+    @Timed
+    public ResponseEntity<M1bicicletaDTO> toAvailable(@RequestBody M1bicicletaDTO m1bicicletaDTO)
+            throws URISyntaxException {
+        log.debug("toAvailable Reques : {}", m1bicicletaDTO);
+        m1bicicletaService.toAvailable(m1bicicletaDTO.getId());
+        return ResponseEntity.ok()
+                .headers(HeaderUtil.createEntityUpdateAlert(ENTITY_NAME, m1bicicletaDTO.getId().toString()))
+                .body(m1bicicletaDTO);
+    }
 }

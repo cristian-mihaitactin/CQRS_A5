@@ -55,14 +55,16 @@
                             <span class="fa fa-remove"></span>
                             <span class="d-none d-md-inline">Delete</span>
                         </button>
+                        <form name="repairForm" role="form" novalidate (ngSubmit)="save" #editForm="ngForm">
                         <button *jhiHasAnyAuthority="'ROLE_ADMIN'" type="submit"
-                                [routerLink]="['/', { outlets: { popup: 'm-1-bicicletaAvailable/'+ m1bicicleta.id + '/edit'} }]"
+                                (click)="toRepair(m1bicicleta)"
                                 replaceUrl="true"
                                 queryParamsHandling="merge"
                                 class="btn btn-primary btn-sm">
                             <span class="fa fa-pencil"></span>
                             <span class="d-none d-md-inline">Repair</span>
                         </button>
+                        </form>
                     </div>
                 </td>
             </tr>

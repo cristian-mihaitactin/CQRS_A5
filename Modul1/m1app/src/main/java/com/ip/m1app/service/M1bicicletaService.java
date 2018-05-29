@@ -39,4 +39,8 @@ public interface M1bicicletaService {
      * @param id the id of the entity
      */
     void delete(Long id);
+
+    void toRepair(Long id);
+
+    void toAvailable(Long id);
 }

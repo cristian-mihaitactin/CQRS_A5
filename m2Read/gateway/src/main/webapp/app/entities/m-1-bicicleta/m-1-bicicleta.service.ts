@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpResponse } from '@angular/common/http';
+import { HttpClient, HttpResponse, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { SERVER_API_URL } from '../../app.constants';
 
@@ -11,8 +11,9 @@ export type EntityResponseType = HttpResponse<M1bicicleta>;
 @Injectable()
 export class M1bicicletaService {
 
-    private resourceUrl =  SERVER_API_URL + 'm1app/api/m-1-bicicletas';
-
+    private resourceUrl =    SERVER_API_URL + 'm1app/api/m-1-bicicletas';
+    private toRepairUrl =    this.resourceUrl + 'torepair';
+    private toAvailableUrl = this.resourceUrl + 'toavailable';
     constructor(private http: HttpClient) { }
 
     create(m1bicicleta: M1bicicleta): Observable<EntityResponseType> {
@@ -25,6 +26,17 @@ export class M1bicicletaService {
         const copy = this.convert(m1bicicleta);
         return this.http.put<M1bicicleta>(this.resourceUrl, copy, { observe: 'response' })
             .map((res: EntityResponseType) => this.convertResponse(res));
+    }
+
+    private subscribeToSaveResponse(result: Observable<HttpResponse<M1bicicleta>>) {
+        result.subscribe((res: HttpResponse<M1bicicleta>) =>
+            alert("it worked!"), (res: HttpErrorResponse) => alert("fail"));
+    }
+
+
+    toAvailable(m1bicicleta: M1bicicleta) : Observable<EntityResponseType> {
+        m1bicicleta.status = 1;
+        return this.update(m1bicicleta);
     }
 
     find(id: number): Observable<EntityResponseType> {

@@ -40,7 +40,7 @@
                             <span class="d-none d-md-inline">View</span>
                         </button>
                         <button type="submit"
-                                [routerLink]="['/', { outlets: { popup: 'm-1-bicicletaInService/'+ m1bicicleta.id + '/edit'} }]"
+                                 (click)="toAvailable(m1bicicleta)"
                                 replaceUrl="true"
                                 queryParamsHandling="merge"
                                 class="btn btn-primary btn-sm">
